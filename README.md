@@ -3,6 +3,18 @@ JS+ES6写的轮播插件
 
 使用方法：
 
+
+    let moveEle = document.querySelector('.oUlplay'),
+        moveEleChildren = moveEle.querySelectorAll('li'),
+        oPre = document.getElementsByClassName('pre')[0],
+        oNext = document.getElementsByClassName('next')[0],
+        minEle = document.getElementsByClassName('samllTitle')[0].getElementsByTagName('li'),
+        autoPlayTime = 2000,
+        speedNum = 8,
+        attrJson = {
+        left : -500
+    };
+    
     let json = {
         moveEle : moveEle,
         moveEleChildren : moveEleChildren,
