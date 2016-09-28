@@ -3,7 +3,7 @@
  * */
 
 export default function (json) {
-    
+
     let moveEle = json.moveEle,//运动的目标元素
         moveEleChildren = json.moveEleChildren,//运动元素的所有子元素（数组）
         speedNum = json.speedNum,//运动的速度的基数
