@@ -22,7 +22,7 @@ JS+ES6写的轮播插件
     moveEleChildren ：为运动元素的所有子元素，是一个数组（这里为li）
     speedNum : 运动的速度
     autoPlayTime ： 切换图片的时间间隔
-    attrJson : 运动的属性 例如： {
+    attrJson : 运动的属性，为一个对象 例如： {
                                   left : -500
                                }
      oPre : 向左滑动的DOM按钮
